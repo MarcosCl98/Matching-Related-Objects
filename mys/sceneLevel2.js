@@ -38,6 +38,9 @@ class SceneLevel2 extends Phaser.Scene {
         this.load.spritesheet('baby', 'mys/assets/baby.png',
         { frameWidth: 150, frameHeight: 150 }  );
 
+        this.load.spritesheet('man', 'mys/assets/man.png',
+        { frameWidth: 150, frameHeight: 150 }  );
+
         this.load.spritesheet('babybottle', 'mys/assets/babybottle.png',
         { frameWidth: 150, frameHeight: 150 }  );
         
@@ -47,8 +50,8 @@ class SceneLevel2 extends Phaser.Scene {
         this.load.spritesheet('kid', 'mys/assets/kid.png',
         { frameWidth: 150, frameHeight: 150 }   );
 
-        this.load.spritesheet('male', 'mys/assets/male.png',
-        { frameWidth: 150, frameHeight: 150 }   );
+        //this.load.spritesheet('male', 'mys/assets/male.png',
+        //{ frameWidth: 150, frameHeight: 150 }   );
             
         this.load.spritesheet('briefcase', 'mys/assets/briefcase.png',
         { frameWidth: 150, frameHeight: 150 }   );
